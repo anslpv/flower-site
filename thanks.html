@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Спасибо — Цвети</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main class="wrap" style="min-height:100vh;display:grid;place-items:center;padding:40px 20px">
+  <div class="card-note done" style="max-width:520px;width:100%">
+    <div class="done__ic" id="ic">✓</div>
+    <h2 id="t">Спасибо!</h2>
+    <p id="p"></p>
+    <a class="btn btn--primary" href="./">Вернуться на сайт</a>
+  </div>
+</main>
+<script>
+  var q = new URLSearchParams(location.search), n = q.get('order');
+  var fail = q.get('fail');
+  document.getElementById('t').textContent = fail ? 'Оплата не прошла' : 'Оплата получена';
+  document.getElementById('ic').textContent = fail ? '!' : '✓';
+  document.getElementById('p').textContent = fail
+    ? 'Заказ ' + (n ? '№' + n + ' ' : '') + 'сохранён. Вы можете повторить оплату — напишите нам, и мы пришлём новую ссылку.'
+    : 'Заказ ' + (n ? '№' + n + ' ' : '') + 'принят в работу. Мы свяжемся с вами для уточнения времени доставки.';
+</script>
+</body>
+</html>

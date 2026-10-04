@@ -1,0 +1,122 @@
+[
+    {
+        "id": "b01",
+        "name": "Нежность",
+        "price": 4500,
+        "desc": "Пионовидные розы, эустома, эвкалипт",
+        "image": "uploads/b01.svg",
+        "active": true
+    },
+    {
+        "id": "b02",
+        "name": "Пионы в облаках",
+        "price": 6200,
+        "desc": "Пионы, гипсофила, нежная зелень",
+        "image": "uploads/b02.svg",
+        "active": true
+    },
+    {
+        "id": "b03",
+        "name": "Малиновый закат",
+        "price": 3800,
+        "desc": "Розы, гвоздика, лимониум",
+        "image": "uploads/b03.svg",
+        "active": true
+    },
+    {
+        "id": "b04",
+        "name": "Весенний вальс",
+        "price": 3500,
+        "desc": "Тюльпаны, 15 шт., в крафтовой упаковке",
+        "image": "uploads/b04.svg",
+        "active": true
+    },
+    {
+        "id": "b05",
+        "name": "Молочный шоколад",
+        "price": 5200,
+        "desc": "Кремовые розы, хризантема, эвкалипт",
+        "image": "uploads/b05.svg",
+        "active": true
+    },
+    {
+        "id": "b06",
+        "name": "Бордо",
+        "price": 5800,
+        "desc": "Бордовые розы, 15 шт., зелень",
+        "image": "uploads/b06.svg",
+        "active": true
+    },
+    {
+        "id": "b07",
+        "name": "Воздушный",
+        "price": 6900,
+        "desc": "Гортензия, розы, эустома, зелень",
+        "image": "uploads/b07.svg",
+        "active": true
+    },
+    {
+        "id": "b08",
+        "name": "Персиковый рассвет",
+        "price": 5400,
+        "desc": "Ранункулюсы, розы, эвкалипт",
+        "image": "uploads/b08.svg",
+        "active": true
+    },
+    {
+        "id": "b09",
+        "name": "Мини-букет",
+        "price": 2200,
+        "desc": "Кустовая роза, зелень",
+        "image": "uploads/b09.svg",
+        "active": true
+    },
+    {
+        "id": "b10",
+        "name": "Шляпная коробка",
+        "price": 5900,
+        "desc": "Розы, эустома, зелень в коробке",
+        "image": "uploads/b10.svg",
+        "active": true
+    },
+    {
+        "id": "b11",
+        "name": "Полевое лето",
+        "price": 4900,
+        "desc": "Сезонный микс: ромашки, дельфиниум, кустовая роза",
+        "image": "uploads/b11.svg",
+        "active": true
+    },
+    {
+        "id": "b12",
+        "name": "Орхидея",
+        "price": 7500,
+        "desc": "Композиция из орхидей и зелени",
+        "image": "uploads/b12.svg",
+        "active": true
+    },
+    {
+        "id": "b13",
+        "name": "Хлопковое облако",
+        "price": 3200,
+        "desc": "Хлопок, гипсофила, сухоцветы",
+        "image": "uploads/b13.svg",
+        "active": true
+    },
+    {
+        "id": "b14",
+        "name": "Нежная классика",
+        "price": 7900,
+        "desc": "25 роз в нежных оттенках",
+        "image": "uploads/b14.svg",
+        "active": true
+    },
+    {
+        "id": "b15",
+        "name": "Эустома в кремовом",
+        "price": 4200,
+        "desc": "Кремовая эустома, эвкалипт",
+        "image": "uploads/b15.svg",
+        "active": true
+    }
+]

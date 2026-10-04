@@ -1,0 +1,20 @@
+{
+    "name": "Ирина",
+    "phone": "+7 (999) 999-99-99",
+    "date": "2026-10-05",
+    "time": "",
+    "address": "мира 11к1",
+    "rname": "Ирина",
+    "rphone": "+7 (999) 999-99-99",
+    "anon": true,
+    "card": "Любовь моя",
+    "comment": "На ваше усмотрение",
+    "number": "261002-730",
+    "created": "2026-10-02T19:09:21+00:00",
+    "product_id": "b01",
+    "product_name": "Нежность",
+    "amount": 4500,
+    "pay_method": "later",
+    "status": "paid",
+    "payment_id": ""
+}

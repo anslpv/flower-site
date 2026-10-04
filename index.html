@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Цвети — букеты и цветочные композиции на заказ в Ростове-на-Дону
+    </title>
+    <meta
+      name="description"
+      content="Цветочный магазин «Цвети»: авторские букеты и композиции на заказ, сборка вручную, свежие цветы напрямую от поставщика. Доставка по Ростову-на-Дону."
+    />
+    <meta property="og:title" content="Цвети — цветы и композиции на заказ" />
+    <meta
+      property="og:description"
+      content="Создаём букеты для души и дарим эмоции. Доставка по Ростову-на-Дону."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#E9E6E5" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%237B2342'/%3E%3Ccircle cx='32' cy='32' r='10' fill='%23F2CFD6'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="top" id="top">
+      <div class="wrap top__in">
+        <a href="#top" class="logo">Цвети</a>
+        <nav class="nav" aria-label="Разделы">
+          <a href="#catalog">Каталог</a>
+          <a href="#how">Как заказать</a>
+          <a href="#delivery">Доставка</a>
+          <a href="#about">О магазине</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+        <a href="#contacts" class="top__phone" data-phone></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero__in">
+          <div class="hero__text">
+            <p class="eyebrow">Цветочный магазин · Ростов-на-Дону</p>
+            <h1>Создаём букеты для&nbsp;души и&nbsp;дарим эмоции</h1>
+            <p class="lead">
+              Цветы и композиции на заказ. Каждый букет собираем вручную из
+              свежих цветов под ваш повод и пожелания.
+            </p>
+            <div class="hero__btns">
+              <a href="#catalog" class="btn btn--primary">Смотреть каталог</a>
+              <span class="hero__msg" data-messengers></span>
+            </div>
+          </div>
+          <div class="hero__img">
+            <img
+              src="assets/hero.svg"
+              alt="Нежный букет из роз"
+              width="800"
+              height="900"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="catalog">
+        <div class="wrap">
+          <div class="sec__head">
+            <h2>Каталог</h2>
+            <p>
+              Все букеты собираются на заказ — цветы закупаются под ваш заказ
+              напрямую у поставщика.
+            </p>
+          </div>
+          <div class="grid" id="grid" aria-live="polite">
+            <p class="muted">Загружаем каталог…</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec--milk" id="how">
+        <div class="wrap">
+          <div class="sec__head"><h2>Как заказать</h2></div>
+          <ol class="steps">
+            <li>
+              <b>1</b>
+              <h3>Выберите букет</h3>
+              <p>Нажмите «Заказать» у понравившейся композиции.</p>
+            </li>
+            <li>
+              <b>2</b>
+              <h3>Заполните заявку</h3>
+              <p>
+                Дата, адрес, получатель и текст открытки — всё в одной форме.
+              </p>
+            </li>
+            <li>
+              <b>3</b>
+              <h3>Оплатите онлайн</h3>
+              <p>
+                Картой или через СБП. Или договоримся об оплате в мессенджере.
+              </p>
+            </li>
+            <li>
+              <b>4</b>
+              <h3>Получите цветы</h3>
+              <p>Соберём вручную и привезём в согласованное время.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="sec" id="delivery">
+        <div class="wrap two">
+          <div>
+            <h2>Доставка</h2>
+            <ul class="ticks">
+              <li>Доставляем по Ростову-на-Дону.</li>
+              <li>
+                Заказ собирается по предварительному оформлению — чтобы цветы
+                были свежими.
+              </li>
+              <li>
+                Точное время доставки обсуждаем отдельно после оформления
+                заявки.
+              </li>
+            </ul>
+            <p class="muted">
+              Нужно срочно или есть особые пожелания? Напишите — постараемся
+              помочь.
+            </p>
+          </div>
+          <div class="card-note">
+            <h3>Уточнить заказ</h3>
+            <p>
+              Не нашли нужный букет или хотите изменить состав? Соберём
+              индивидуально.
+            </p>
+            <span data-messengers data-clarify></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec--pink" id="about">
+        <div class="wrap about">
+          <h2>О магазине</h2>
+          <p>
+            Букеты в «Цвети» собираются вручную — с вниманием к цветам, их
+            свежести и вашим пожеланиям.
+          </p>
+          <p>
+            К каждому заказу цветы закупаются напрямую у поставщика, поэтому мы
+            не держим «залежавшийся» товар: вы получаете то, что только что
+            приехало.
+          </p>
+        </div>
+      </section>
+
+      <section class="sec" id="contacts">
+        <div class="wrap">
+          <div class="sec__head">
+            <h2>Связаться со мной</h2>
+            <p>Отвечаю в мессенджерах — выберите удобный.</p>
+          </div>
+          <div class="contacts">
+            <div class="contacts__btns" data-contacts></div>
+            <p class="muted" data-hours></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot__in">
+        <span class="logo logo--sm">Цвети</span>
+        <span
+          >© <span id="year"></span> Цветочный магазин «Цвети»,
+          Ростов-на-Дону</span
+        >
+        <span class="foot__links"
+          ><a href="offer.html">Публичная оферта</a> ·
+          <a href="privacy.html">Политика конфиденциальности</a></span
+        >
+      </div>
+    </footer>
+
+    <!-- Плавающая кнопка связи (мобильные) -->
+    <div class="fab" data-fab hidden></div>
+
+    <!-- Форма заказа -->
+    <div
+      class="modal"
+      id="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="mTitle"
+      hidden
+    >
+      <div class="modal__bg" data-close></div>
+      <div class="modal__box">
+        <button class="modal__x" data-close aria-label="Закрыть">×</button>
+        <div id="formView">
+          <h2 id="mTitle">Оформление заказа</h2>
+          <form id="orderForm" novalidate>
+            <div class="pick">
+              <img id="pickImg" alt="" width="72" height="90" />
+              <div>
+                <label for="product">Букет / композиция</label>
+                <select id="product" name="product" required></select>
+                <div class="pick__price" id="pickPrice"></div>
+              </div>
+            </div>
+
+            <fieldset>
+              <legend>Ваши данные</legend>
+              <div class="row">
+                <div class="f">
+                  <label for="name">Ваше имя *</label
+                  ><input id="name" name="name" autocomplete="name" required />
+                </div>
+                <div class="f">
+                  <label for="phone">Ваш телефон *</label
+                  ><input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    inputmode="tel"
+                    autocomplete="tel"
+                    placeholder="+7 (___) ___-__-__"
+                    required
+                  />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Доставка</legend>
+              <div class="row">
+                <div class="f">
+                  <label for="date">Дата доставки *</label
+                  ><input id="date" name="date" type="date" required />
+                </div>
+                <div class="f">
+                  <label for="time">Желаемое время</label
+                  ><input
+                    id="time"
+                    name="time"
+                    placeholder="например, после 18:00"
+                  />
+                </div>
+              </div>
+              <div class="f">
+                <label for="address">Адрес доставки (Ростов-на-Дону) *</label
+                ><input
+                  id="address"
+                  name="address"
+                  autocomplete="street-address"
+                  placeholder="улица, дом, квартира, подъезд"
+                  required
+                />
+              </div>
+              <label class="check"
+                ><input type="checkbox" id="self" name="self" /> Получатель —
+                я</label
+              >
+              <div class="row" id="recipientRow">
+                <div class="f">
+                  <label for="rname">Имя получателя *</label
+                  ><input id="rname" name="rname" />
+                </div>
+                <div class="f">
+                  <label for="rphone">Телефон получателя *</label
+                  ><input
+                    id="rphone"
+                    name="rphone"
+                    type="tel"
+                    inputmode="tel"
+                    placeholder="+7 (___) ___-__-__"
+                  />
+                </div>
+              </div>
+              <label class="check"
+                ><input type="checkbox" id="anon" name="anon" /> Не сообщать
+                получателю, от кого цветы</label
+              >
+            </fieldset>
+
+            <fieldset>
+              <legend>Дополнительно</legend>
+              <div class="f">
+                <label for="card">Текст открытки</label
+                ><textarea
+                  id="card"
+                  name="card"
+                  rows="2"
+                  placeholder="Оставьте пустым, если открытка не нужна"
+                ></textarea>
+              </div>
+              <div class="f">
+                <label for="comment">Комментарий к заказу</label
+                ><textarea
+                  id="comment"
+                  name="comment"
+                  rows="2"
+                  placeholder="Пожелания по цветам, оттенкам, упаковке"
+                ></textarea>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Оплата</legend>
+              <label class="radio"
+                ><input type="radio" name="pay" value="online" checked />
+                <span
+                  ><b>Оплатить онлайн</b
+                  ><small
+                    >картой или через СБП, сразу после оформления</small
+                  ></span
+                ></label
+              >
+              <label class="radio"
+                ><input type="radio" name="pay" value="later" />
+                <span
+                  ><b>Договориться об оплате</b
+                  ><small
+                    >свяжусь с вами и пришлю ссылку или реквизиты</small
+                  ></span
+                ></label
+              >
+            </fieldset>
+
+            <input
+              type="text"
+              name="website"
+              class="hp"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+
+            <div class="total"><span>Итого:</span> <b id="total"></b></div>
+            <p class="err" id="err" role="alert" hidden></p>
+            <button
+              class="btn btn--primary btn--wide"
+              id="submit"
+              type="submit"
+            >
+              Оформить заказ
+            </button>
+            <p class="legal">
+              Нажимая кнопку, вы принимаете
+              <a href="offer.html" target="_blank">публичную оферту</a> и
+              соглашаетесь на обработку персональных данных согласно
+              <a href="privacy.html" target="_blank"
+                >политике конфиденциальности</a
+              >.
+            </p>
+          </form>
+        </div>
+
+        <div id="doneView" hidden>
+          <div class="done">
+            <div class="done__ic">✓</div>
+            <h2>Спасибо! Заказ принят</h2>
+            <p id="doneText"></p>
+            <div id="doneBtns"></div>
+            <button class="btn btn--ghost" data-close>Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
