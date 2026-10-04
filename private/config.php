@@ -3,7 +3,7 @@
 // Папка private/ закрыта от доступа из браузера (см. private/.htaccess).
 return [
     // Адрес сайта без слэша в конце. Нужен для возврата клиента после оплаты.
-    'site_url' => '',   // например: 'https://cveti-rostov.ru'
+    'site_url' => 'https://anslpv.github.io/flower-site/',   // например: 'https://cveti-rostov.ru'
 
     // --- Онлайн-оплата: эквайринг Точка Банка ---
     // Токен доступа к API Точки (Интернет-банк → Интеграции и API → Токены).
@@ -15,6 +15,6 @@ return [
 
     // --- Уведомления о заказах в Telegram (необязательно, но очень удобно) ---
     // Создайте бота у @BotFather, возьмите токен; chat_id — ваш личный (узнать у @userinfobot).
-    'telegram_bot_token' => '',
-    'telegram_chat_id' => '',
+    'telegram_bot_token' => '8905213087:AAHwYVdylGB9jkud64qCq8cQsfhMxOJin2g',
+    'telegram_chat_id' => '8905213087',
 ];
